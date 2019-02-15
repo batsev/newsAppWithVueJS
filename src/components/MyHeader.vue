@@ -1,0 +1,59 @@
+<template>
+  <div>
+    <v-toolbar>
+      <v-toolbar-items style="margin:auto;">
+        <v-btn
+          v-for="(item, i) in menuItems"
+          flat
+          :key="`menuItems${i}`"
+          :to="item.route"
+        >{{item.title}}</v-btn>
+      </v-toolbar-items>
+    </v-toolbar>
+  </div>
+</template>
+
+<script>
+export default {
+  computed: {
+    menuItems() {
+      return [
+        {
+          title: "Home",
+          route: "/"
+        },
+        {
+          title: "Business",
+          route: "/business"
+        },
+        {
+          title: "Entertainment",
+          route: "/entertainment"
+        },
+        {
+          title: "Health",
+          route: "/health"
+        },
+        {
+          title: "Science",
+          route: "/science"
+        },
+        {
+          title: "Sports",
+          route: "/sports"
+        },
+        {
+          title: "Technology",
+          route: "/technology"
+        },
+        {
+          title: "About",
+          route: "/about"
+        }
+      ];
+    }
+  }
+};
+</script>
+
+
