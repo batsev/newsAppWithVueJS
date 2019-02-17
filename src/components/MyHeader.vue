@@ -1,12 +1,13 @@
 <template>
   <div>
-    <v-toolbar>
-      <v-toolbar-items style="margin:auto;">
+    <v-toolbar height="30">
+      <v-toolbar-items style="margin: auto;">
         <v-btn
           v-for="(item, i) in menuItems"
           flat
           :key="`menuItems${i}`"
           :to="item.route"
+          style="height:20px;"
         >{{item.title}}</v-btn>
       </v-toolbar-items>
     </v-toolbar>
@@ -55,5 +56,11 @@ export default {
   }
 };
 </script>
+
+<style lang="sass">
+
+</style>
+
+
 
 

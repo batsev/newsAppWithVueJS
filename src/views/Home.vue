@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <v-jumbotron style="background-color: #e9ecef; height: 300px">
+    <v-jumbotron style="background-color: #e9ecef;height: 300px;">
       <v-container fill-height>
         <v-layout align-center>
           <v-flex text-xs-center>
@@ -36,3 +36,4 @@ export default {
   }
 };
 </script>
+
