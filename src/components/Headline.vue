@@ -4,7 +4,7 @@
       <v-flex class="px-5" :key="headline.id" v-for="headline in headlines" md4 sm6 lg4>
         <v-card elevation="0">
           <v-img height="300" :src="headline.urlToImage"></v-img>
-          <v-card-text>{{headline.title}}</v-card-text>
+          <v-card-text class="px-0 test">{{headline.title}}</v-card-text>
         </v-card>
       </v-flex>
     </v-layout>

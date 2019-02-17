@@ -7,7 +7,7 @@
           flat
           :key="`menuItems${i}`"
           :to="item.route"
-          style="height:20px;"
+          style="height:20px; text-transform: capitalize;"
         >{{item.title}}</v-btn>
       </v-toolbar-items>
     </v-toolbar>
