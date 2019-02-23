@@ -1,12 +1,6 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Home from "./views/Home.vue";
-import Business from "./views/Business.vue";
-import Entertainment from "./views/Entertainment.vue";
-import Health from "./views/Health.vue";
-import Science from "./views/Science.vue";
-import Sports from "./views/Sports.vue";
-import Technology from "./views/Technology.vue";
 import Post from "@/views/Post";
 import News from "@/views/News";
 
