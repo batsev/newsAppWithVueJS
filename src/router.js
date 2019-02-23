@@ -7,6 +7,7 @@ import Health from "./views/Health.vue";
 import Science from "./views/Science.vue";
 import Sports from "./views/Sports.vue";
 import Technology from "./views/Technology.vue";
+import Post from "@/views/Post";
 
 Vue.use(Router);
 
@@ -46,6 +47,10 @@ export default new Router({
       path: "/technology",
       name: "technology",
       component: Technology
+    },
+    {
+      path: "/post",
+      component: Post
     },
     {
       path: "/about",
