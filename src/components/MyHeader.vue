@@ -7,7 +7,7 @@
           flat
           :key="`menuItems${i}`"
           :to="item.route"
-          style="height:20px; text-transform: capitalize;"
+          style="height:20px; text-transform: capitalize; margin: 0 5px;"
         >{{item.title}}</v-btn>
       </v-toolbar-items>
     </v-toolbar>
@@ -57,9 +57,6 @@ export default {
 };
 </script>
 
-<style lang="sass">
-
-</style>
 
 
 
