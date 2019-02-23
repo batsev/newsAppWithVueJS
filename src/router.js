@@ -8,6 +8,7 @@ import Science from "./views/Science.vue";
 import Sports from "./views/Sports.vue";
 import Technology from "./views/Technology.vue";
 import Post from "@/views/Post";
+import News from "@/views/News";
 
 Vue.use(Router);
 
@@ -21,32 +22,32 @@ export default new Router({
     {
       path: "/business",
       name: "business",
-      component: Business
+      component: News
     },
     {
       path: "/entertainment",
       name: "entertainment",
-      component: Entertainment
+      component: News
     },
     {
       path: "/health",
       name: "health",
-      component: Health
+      component: News
     },
     {
       path: "/science",
       name: "science",
-      component: Science
+      component: News
     },
     {
       path: "/sports",
       name: "sports",
-      component: Sports
+      component: News
     },
     {
       path: "/technology",
       name: "technology",
-      component: Technology
+      component: News
     },
     {
       path: "/post",
