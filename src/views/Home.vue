@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <v-jumbotron style="background-color: #e9ecef;height: 300px;">
+    <v-responsive style="background-color: #e9ecef;height: 300px;">
       <v-container fill-height>
         <v-layout align-center>
           <v-flex text-xs-center>
@@ -9,7 +9,7 @@
           </v-flex>
         </v-layout>
       </v-container>
-    </v-jumbotron>
+    </v-responsive>
     <headline v-bind:headlines="headlines"/>
   </div>
 </template>
