@@ -30,7 +30,7 @@ export default {
   created() {
     axios
       .get(
-        "https://newsapi.org/v2/top-headlines?country=us&apiKey=4ddbcf5bce9f487297a630ba3a90c3ed"
+        "https://newsapi.org/v2/top-headlines?country=us&apiKey=*apiKey**"
       )
       .then(res => (this.headlines = res.data.articles));
   }
