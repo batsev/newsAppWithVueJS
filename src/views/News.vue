@@ -24,7 +24,7 @@ export default {
     getNews (path) {
       const category = path.replace('/', '')
       axios
-        .get(`https://newsapi.org/v2/top-headlines?country=us&category=${category}&apiKey=4ddbcf5bce9f487297a630ba3a90c3ed`)
+        .get(`https://newsapi.org/v2/top-headlines?country=us&category=${category}&apiKey=*apiKey*`)
         .then(res => (this.headlines = res.data.articles));      
     }
   },
